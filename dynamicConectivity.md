@@ -83,9 +83,9 @@ Temos assim em representante(x):
 
 ### Problema 2.1
 Temos um grafo com 3 operações:
-	- *+ a b*: cria uma aresta entre a e b.
-	- *-*: retira a última aresta criada.
-	- *p a b*: pergunta se a e b estão conectados.
+ - *+ a b*: cria uma aresta entre a e b.
+ - *-*: retira a última aresta criada.
+ - *p a b*: pergunta se a e b estão conectados.
 
 ### Solução
 Union find, com uma alteração em juntar(x, y):
@@ -94,7 +94,7 @@ Assim, caso - seja acionado, podemos apenas fazer pai(px) = px, desfazendo a lig
 OBS: Assumimos que o path compression não está sendo usado.
 
 ### Problema 2.2
-Mesma coisa, mas a operação *-* é trocada por *- a b*, deletando uma aresta qualquer.
+Mesma coisa, mas a operação *-* é trocada por *- a b*, deletando uma aresta qualquer entre a e b.
 
 ### Solução
 Inicialmente, vamos listar as perguntas.
