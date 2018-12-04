@@ -94,7 +94,7 @@ Assim, caso - seja acionado, podemos apenas fazer pai(px) = px, desfazendo a lig
 OBS: Assumimos que o path compression não está sendo usado.
 
 ### Problema 2.2
-Mesma coisa, mas a operação *-* é trocada por *- a b*, deletando uma aresta qualquer.
+Mesma coisa, mas a operação *-* é trocada por *- a b*, deletando uma aresta qualquer entre a e b.
 
 ### Solução
 Inicialmente, vamos listar as perguntas.
